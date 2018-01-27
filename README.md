@@ -110,6 +110,11 @@ Hyde has two branches, but only one is used for active development.
 - <https://github.com/mdo>
 - <https://twitter.com/mdo>
 
+**Jon Pitcherella**
+- <https://github.com/jonpitch>
+- <https://twitter.com/jonpitch>
+- <https://jonpitcherella.com>
+
 
 ## License
 

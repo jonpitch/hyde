@@ -67,7 +67,7 @@ body {
 
 /* No `:visited` state is required by default (browsers will use `a`) */
 a {
-  color: #268bd2;
+  color: #3344dd;
   text-decoration: none;
 }
 a strong {
@@ -155,7 +155,7 @@ pre {
 code {
   padding: .25em .5em;
   font-size: 85%;
-  color: #bf616a;
+  color: #CC0000;
   background-color: #f9f9f9;
   border-radius: 3px;
 }
@@ -214,7 +214,7 @@ pre code {
 blockquote {
   padding: .5rem 1rem;
   margin: .8rem 0;
-  color: #7a7a7a;
+  color: #666;
   border-left: .25rem solid #e5e5e5;
 }
 blockquote p:last-child {
@@ -349,7 +349,7 @@ tbody tr:nth-child(odd) th {
   display: block;
   margin-top: -.5rem;
   margin-bottom: 1rem;
-  color: #9a9a9a;
+  color: #666666;
 }
 
 /* Related posts */
@@ -390,7 +390,7 @@ tbody tr:nth-child(odd) th {
   margin-left: -1rem;
   margin-right: -1rem;
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
-  color: #ccc;
+  color: #666;
   text-align: center;
 }
 
