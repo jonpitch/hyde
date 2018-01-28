@@ -1,9 +1,10 @@
-# Hyde
+# Progressive Hyde
 
-Hyde is a brazen two-column [Jekyll](http://jekyllrb.com) theme that pairs a prominent sidebar with uncomplicated content. It's based on [Poole](http://getpoole.com), the Jekyll butler.
+Progressive Hyde is an adaptation of [Hyde](http://hyde.getpoole.com/), a brazen two-column [Jekyll](http://jekyllrb.com) theme that pairs a prominent sidebar with uncomplicated content. It's based on [Poole](http://getpoole.com), the Jekyll butler.
 
 ![Hyde screenshot](https://f.cloud.github.com/assets/98681/1831228/42af6c6a-7384-11e3-98fb-e0b923ee0468.png)
 
+It has been adapted to work with Jekyll 3.x and to be used as a starting point for progressive web applications.
 
 ## Contents
 
@@ -13,6 +14,7 @@ Hyde is a brazen two-column [Jekyll](http://jekyllrb.com) theme that pairs a pro
   - [Sticky sidebar content](#sticky-sidebar-content)
   - [Themes](#themes)
   - [Reverse layout](#reverse-layout)
+  - [Progressive Web Applications](#progressive-web-applications)
 - [Development](#development)
 - [Author](#author)
 - [License](#license)
@@ -95,13 +97,15 @@ Hyde's page orientation can be reversed with a single class.
 </body>
 ```
 
+### Progressive Web Applications
 
-## Development
+The majority of the changes can be viewed in [this](https://github.com/jonpitch/progressive-hyde/commit/ba6741af1fa85f8925576e8de47952f3a79ee68a) commit. They include:
 
-Hyde has two branches, but only one is used for active development.
+- A more complete app manifest
+- Installing a service worker
+- Improving color contrast
 
-- `master` for development.  **All pull requests should be submitted against `master`.**
-- `gh-pages` for our hosted site, which includes our analytics tracking code. **Please avoid using this branch.**
+There's a step by step walkthrough of each change and their impact that can be found [here](https://jonpitcherella.com/2018/01/09/personal-site-pwa/).
 
 
 ## Author
